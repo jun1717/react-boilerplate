@@ -6,5 +6,11 @@
   },
   "parserOptions": {
     "ecmaVersion": 2018
+  },
+  "settings": {
+    "import/resolver": "webpack"
+  },
+  "rules": {
+    "react/prefer-stateless-function": 0
   }
 }

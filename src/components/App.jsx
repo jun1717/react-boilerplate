@@ -1,12 +1,11 @@
 import React from 'react';
-import Test from './Test';
-import Counter from './Counter';
+import TodoList from './TodoList';
+import Login from './Login';
 
 const App = () => (
   <div>
-    <Counter />
-    <Test />
-    <p>これがIndexコンポーネント</p>
+    <Login />
+    <TodoList />
   </div>
 );
 export default App;

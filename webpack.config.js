@@ -1,5 +1,5 @@
 
-const path = require('path');
+const path = require('path'); // eslint-disable-line import/no-extraneous-dependencies
 
 module.exports = {
   mode: 'development',
@@ -44,5 +44,8 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+    alias: {
+      src: path.resolve(__dirname, 'src/'),
+    },
   },
 };
